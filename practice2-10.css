@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+}
+
+body {
+    background-color: white;
+    margin-top: 64px;
+}
+
+#mainConteiner {
+    max-width: 1604px;
+    width: 100%;
+    padding: 96px;
+    background: #E2F7FF;
+    margin: 0 auto;
+}
+
+#section {
+    max-width: 1412px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 96px;
+}
+
+#firstConteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+#uxConteiner {
+    max-width: 1216px;
+    width: 100%;
+}
+
+#uxFoto {
+    margin-bottom: 20px;
+    max-width: 1412px;
+    width: 100%;
+}
+
+#oliviaParagrap {
+    font-size: 14px;
+    color: #6941C6;
+    margin-bottom: 8px;
+
+}
+
+#uxH3 {
+    font-size: 30px;
+    color: #181D27;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 1176px;
+    width: 100%;
+}
+
+#presentationsParagrap {
+    font-size: 16px;
+    color: #535862;
+    margin-bottom: 24px;
+}
+
+#uxSvg {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.desing {
+    font-size: 14px;
+    color: #6941C6;
+    padding: 8px 12px;
+    border-radius: 9999px;
+    text-decoration: none;
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    margin-right: 8px;
+}
+
+.research {
+    color: #3538CD;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+    margin-right: 8px;
+}
+
+#presentation {
+    text-decoration: none;
+    color: #C11574;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 9999px;
+    border: 1px solid #FCCEEE;
+    background: #FDF2FA;
+}
+
+
+#bigConteiner {
+    max-width: 1216px;
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 48px;
+}
+
+#migratingConteiner {
+    max-width: 384px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 26px;
+    vertical-align: middle;
+}
+
+#migratinFoto {
+    max-width: 384px;
+    width: 100%;
+}
+
+#phoenix {
+    margin-top: 20px;
+    color: #6941C6;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#migratingH3 {
+    font-size: 24px;
+    color: #181D27;
+    margin-bottom: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 344px;
+    width: 100%;
+}
+
+#migratingSvg {
+    margin-left: 12px;
+    vertical-align: top;
+}
+
+#linear {
+    font-size: 16px;
+    color: #535862;
+    margin-bottom: 24px;
+}
+
+.product {
+    color: #026AA2;
+    padding: 8px 12px;
+    align-items: center;
+    border: 1px solid #B9E6FE;
+    background: #F0F9FF;
+    border-radius: 9999px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+#tools {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 9999px;
+    border: 1px solid #FCCEEE;
+    background: #FDF2FA;
+    color: #C11574;
+    margin-right: 8px;
+}
+
+#sass {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 1px solid #FCCEEE;
+    background: #FDF2FA;
+    color: #C11574;
+}
+
+#apistackConteiner {
+    max-width: 384px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 26px;
+    vertical-align: middle;
+}
+
+#apiImige {
+    max-width: 384px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#lanasteiner {
+    font-size: 14px;
+    color: #6941C6;
+    margin-bottom: 8px;
+}
+
+#apistackH3 {
+    font-size: 24px;
+    color: #181D27;
+    margin-bottom: 8px;
+    display: inline-block;
+    max-width: 344px;
+    width: 100%;
+}
+
+#apistackSVG {
+    margin-left: 12px;
+    vertical-align: top;
+}
+
+#apiParagrap {
+    color: #535862;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#software {
+    font-size: 14px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #067647;
+    border-radius: 9999px;
+    border: 1px solid #ABEFC6;
+    background: #ECFDF3;
+    margin-right: 8px;
+}
+
+#secondTools {
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 9999px;
+    border: 1px solid #FCCEEE;
+    background: #FDF2FA;
+    color: #C11574;
+}
+
+#billWalshConteiner {
+    max-width: 384px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#billiImage {
+    max-width: 384px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#alecParagrd {
+    color: #6941C6;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#billiH3 {
+    color: #181D27;
+    font-size: 24px;
+    margin-bottom: 8px;
+    max-width: 344px;
+    width: 100%;
+    display: inline-block;
+}
+
+#billSVG {
+    margin-left: 12px;
+    vertical-align: top;
+}
+
+#billiParagrap {
+    font-size: 16px;
+    color: #535862;
+    margin-bottom: 24px;
+}
+
+#leadership {
+    padding: 8px 12px;
+    color: #6941C6;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+#management {
+    text-decoration: none;
+    color: #363F72;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 9999px;
+    border: 1px solid #D5D9EB;
+    background: #F8F9FC;
+}
+
+#secondConteiner {
+    max-width: 1216px;
+    width: 100%;
+}
+
+#demiWilkisonConteiner {
+    max-width: 384px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 26px;
+    vertical-align: top;
+}
+
+#demiWilkisonImage {
+    max-width: 384px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 26px;
+}
+
+#demiWilkisonP {
+    color: #6941C6;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#demiWilkisonH3 {
+    color: #181D27;
+    font-size: 24px;
+    margin-bottom: 8px;
+    max-width: 344px;
+    width: 100%;
+    display: inline-block;
+}
+
+#demiWilkisonSVG {
+    vertical-align: top;
+    margin-left: 12px;
+}
+
+#mentalModesParagrap {
+    color: #535862;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#frameworks {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 9999px;
+    border: 1px solid #F9DBAF;
+    background: #FEF6EE;
+    color: #B93815;
+}
+
+#wireframeConteiner {
+    max-width: 384px;
+    width: 100%;
+    display: inline-block;
+    margin-right: 26px;
+    vertical-align: top;
+}
+
+#wireframeImage {
+    max-width: 384px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#candiceParagrap {
+    color: #6941C6;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#wireframeH3 {
+    color: #181D27;
+    font-size: 24px;
+    margin-bottom: 8px;
+    max-width: 344px;
+    width: 100%;
+    display: inline-block;
+}
+
+#wireframeSVG {
+    margin-left: 12px;
+    vertical-align: top;
+}
+
+#wireframeParagrap {
+    color: #535862;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#collaborationConteiner {
+    max-width: 384px;
+    width: 100%;
+    display: inline-block;
+    vertical-align:middle;
+}
+
+#collaborationImage {
+    max-width: 384px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#nataliParagrap {
+    color: #6941C6;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#collaborationH3 {
+    font-size: 24px;
+    max-width: 344px;
+    width: 100%;
+    display: inline-block;
+    color: #181D27;
+    margin-bottom: 8px;
+}
+
+#collaborationSVG {
+    margin-left: 12px;
+    vertical-align: top;
+}
+
+#collaborationParagrap {
+    font-size: 16px;
+    color: #535862;
+    margin-bottom: 24px;
+}
